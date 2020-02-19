@@ -1,0 +1,93 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+p, span {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.head-div{
+background-color: black;
+height:60px;
+width:100%;
+display: flex;
+align-items: center;
+}
+.name{
+    display: flex;
+    color:white;
+    align-items: center;
+}
+.button1{
+    height:40px;
+    width:150px;
+    background-color: white;
+    border:1px solid black;
+    margin-left: 650px;
+    transition: all .6s ease-in;
+}
+.button1:hover{
+background-color: tomato;
+transform: scale(1.1);
+}
+.button2:hover{
+background-color: white;
+}
+.button2{
+    background-color: tomato;
+    margin-left: 50px;
+    height:40px;
+    width:150px;
+    border:1px solid black;
+    transition: all .6s ease-in;
+}
+.Exit{
+    color:black;
+    margin: 0px;
+    text-align:center;
+}
+.head-div2{
+    width:100%;
+    height:40px;
+    background-color: rgb(161, 73, 10);
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.photo{
+width: 40px;
+height:40px;
+padding: 10px;
+}
+.name-of{
+margin:0px;
+}
+.name2{
+display: flex;
+}
+.button11{
+    height:30px;
+    width:130px;
+    background-color: white;
+    margin-left: 50px;
+}
+.button22{
+    height:30px;
+    width:130px;
+    background-color: tomato;
+    margin-left: 50px;
+}
+.Exit1{
+font-size: 13px;
+align-items: center;
+justify-content:center;
+}
+
+.button1, .button2, .button11, .button22{
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
