@@ -1,0 +1,38 @@
+body {
+	background: #101010;
+}
+
+label {
+	transition: all .5s ease-out;
+	color: grey;
+}
+
+.input {
+	transition: all .5s ease-in;
+	background: #555555;
+	border-radius: 500px;
+	border: none;
+	width: 200px;
+	padding-left: 15px;
+	height: 30px;
+}
+
+.input:hover {
+	background: #888888;
+	transform: scale(1.1, 1.1);
+}
+
+.input::placeholder {
+	transition: all .5s ease-out;
+	color: #121212;
+	font-size: 1.025em;
+}
+
+.button {
+	transition: all .5s ease-in;
+	width: 100px;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px blue solid;
+	background: #fff;
+}

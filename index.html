@@ -2,40 +2,57 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
+		
         <title></title>
     </head>
     <body>
         
-        <div class="head-div">
+        <div class="head-div" id="topmenu">
             <div class="name">
                 <img class="photo" src="materials/virus.png">
                 <p class="name-of"><b>НАЗВАНИЕ САЙТА</b></p>
             </div>
-            <div class="name">
-                <div class="button1">
-                    <p class="Exit"><b>Войти</b></p>
-                </div>
-                <div class="button2">
-                    <p class="Exit"><b>Зарегестрироваться</b></p>
-                </div>
-            </div>
+            <div id="container">
+			  <button class="learn-more" id="login">
+				<div class="circle">
+				  <span class="icon arrow"></span>
+				</div>
+				<p class="button-text" onclick="myFunc(this)">Войти</p>
+			  </button>
+			</div>
+            <div id="container" class="mono">
+			  <button class="learn-more" id="reg">
+				<div class="circle">
+				  <span class="icon arrow"></span>
+				</div>
+				<p class="button-text">Зарегистрироватся</p>
+			  </button>
+			</div>
+            <div id="container">
+			  <button class="learn-more">
+				<div class="circle">
+				  <span class="icon arrow"></span>
+				</div>
+				<a href="test.html"><p class="button-text">Тесты/практика</p></a>
+			  </button>
+			</div>
+            <div id="container" class="mono">
+			  <button class="learn-more">
+				<div class="circle">
+				  <span class="icon arrow"></span>
+				</div>
+				<p class="button-text">видео-обучение</p>
+			  </button>
+			</div>
         </div >
-           
-        
-    
-        <div class="head-div2">
-            <div class="name2">
-                
-            </div>
-            <div class="name2">
-                <div class="button11"><p class="Exit1"><b>Тести/практика</b></p></div>
-                <div class="button22"><p class="Exit1"><b>видео обучение</b></p></div>
-            </div>
-        </div>
    
             
-            <script src="script.js"></script>
+           
+			
+			<form name="form" action="index.php" method="post">
+				<div></div>
+			</form>
     </body>
-
+	<script src="js/script.js"></script>
 </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="css/log-in.css">
+</head>
+<body>
+	<!--Если нажали на кнопку "Войти":
+	    Пока я делаю редирект на JS.
+		Я потом сделаю с помощью php редирект на другую страницы.
+		P.S. Редирект - автоматический переход на другую страницу.
+	-->
+	<div class="form-log-in" >
+		<form name="form" action="index.php" method="post">
+			<div>
+				<p><label for="login">Login: </label><input class="input" type="text" name="login" placeholder="Login"></p>
+				<p><label for="pass">Password: </label><input class="input" type="password" name="pass" placeholder="Password"></p>
+				<!-- 
+					Я потом с помощью php сделаю проверку пароля.
+				-->
+				<p><label for="con_pass">Confirm the password: </label><input class="input" type="password" name="con_pass" placeholder="Confirm the password"></p>
+				<input class="button" type="submit" name="form" value="Send">				
+			</div>
+		</form>
+	</div>
+	
+</body>
+</html>
