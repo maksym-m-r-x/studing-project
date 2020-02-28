@@ -36,42 +36,42 @@ function checked_html_tests(){
 //first  
 if (one_false.checked == false && one_true.checked == true && two_false.checked == false) {
 	count++;
-	document.getElementById('first_status').textContent = "Первый вопрос верен";
+	document.getElementById('first_status').textContent = "1. Первый вопрос верен";
 } else {
-	document.getElementById('first_status').textContent = "Первый вопрос не верен";
+	document.getElementById('first_status').textContent = "1. Первый вопрос не верен";
 }
 
 //second
 if (three_false.checked == false && two_true.checked == true && four_false.checked == false) {
 	count++;
-	document.getElementById('second_status').textContent = "второй вопрос верен";
+	document.getElementById('second_status').textContent = "2. Второй вопрос верен";
 } else {
-	document.getElementById('second_status').textContent = "второй вопрос не верен";
+	document.getElementById('second_status').textContent = "2. Второй вопрос не верен";
 }
 
 //third
 if (five_false.checked == false && three_true.checked == true && six_false.checked == false) {
 	count++; 
-	document.getElementById('third_status').textContent = "третий вопрос верен";
+	document.getElementById('third_status').textContent = "3. Третий вопрос верен";
 } else {
-	document.getElementById('third_status').textContent = "третий вопрос не верен";
+	document.getElementById('third_status').textContent = "3. Третий вопрос не верен";
 } 
 
 //fourth
 if (seven_false.checked == false && (four_true.checked == true || five_true.checked == true)) {
 	count++;
-	document.getElementById('fourth_status').textContent = "четвертий вопрос верен";
+	document.getElementById('fourth_status').textContent = "4. Четвертий вопрос верен";
 } else {
-	document.getElementById('fourth_status').textContent = "четвертий вопрос не верен";
+	document.getElementById('fourth_status').textContent = "4. Четвертий вопрос не верен";
 } 
  
 
 //fifth
 if (eight_false.checked == false && six_true.checked == true && nine_false.checked == false) {
 	count++;
-	document.getElementById('fifth_status').textContent = "Пятый вопрос верен";
+	document.getElementById('fifth_status').textContent = "5. Пятый вопрос верен";
 } else {
-	document.getElementById('fifth_status').textContent = "Пятый вопрос не верен";
+	document.getElementById('fifth_status').textContent = "5. Пятый вопрос не верен";
 } 
  
 document.getElementById("res").textContent="ваш счет "+ count;
