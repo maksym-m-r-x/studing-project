@@ -18,14 +18,14 @@ let six_false = document.getElementById("6-false");
 let three_true = document.getElementById("3-true");
 
 
-let seven_false = document.getElementById("7-false");
-let four_true = document.getElementById("4-true");
-let eight_false = document.getElementById("8-false");
-
-
 let five_true = document.getElementById("5-true");
+let four_true = document.getElementById("4-true");
+let seven_false = document.getElementById("7-false");
+
+
+let six_true = document.getElementById("6-true");
+let eight_false = document.getElementById("8-false");
 let nine_false = document.getElementById("9-false");
-let ten_false = document.getElementById("10-false");
 
 
 // && - Логическое И
@@ -58,7 +58,7 @@ if (five_false.checked == false && three_true.checked == true && six_false.check
 } 
 
 //fourth
-if (seven_false.checked == false && four_true.checked == true && eight_false.checked == false) {
+if (seven_false.checked == false && (four_true.checked == true || five_true.checked == true)) {
 	count++;
 	document.getElementById('fourth_status').textContent = "четвертий вопрос верен";
 } else {
@@ -67,13 +67,12 @@ if (seven_false.checked == false && four_true.checked == true && eight_false.che
  
 
 //fifth
-if (seve_false.checked == false && six_true.checked == true && eight_false.checked == false) {
+if (eight_false.checked == false && six_true.checked == true && nine_false.checked == false) {
 	count++;
-	document.getElementById('fourth_status').textContent = "четвертий вопрос верен";
+	document.getElementById('fifth_status').textContent = "Пятый вопрос верен";
 } else {
-	document.getElementById('fourth_status').textContent = "четвертий вопрос не верен";
+	document.getElementById('fifth_status').textContent = "Пятый вопрос не верен";
 } 
  
-
-alert(count)
+document.getElementById("res").textContent="ваш счет "+ count;
 }

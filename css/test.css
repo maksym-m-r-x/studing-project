@@ -68,3 +68,12 @@ a{
 span, p{
   font-family: 'Roboto Condensed';
 }
+.confirm-button{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(117, 37, 37);
+  height: 20px;
+  width: 40px;
+}

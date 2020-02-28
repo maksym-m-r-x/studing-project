@@ -6,7 +6,7 @@
 </head>
 <body>
         <div class="o-res">
-            <div>
+            <div class="tests_content">
             <div>
                 <p><b>Какая разница между тегом p и тегом span?</b></p>
                 <input type="checkbox" id="1-false"><label>Никакая </label>
@@ -37,14 +37,22 @@
             <input type="checkbox" id="8-false"><label> За отображение изображений</label>
             <input type="checkbox" id="9-false"><label> Для вставки видео</label>
             </div>
+            <div class="confirm-button" onclick="checked_html_tests()">
+                <p>ПОДТВЕРДИТЬ</p>
+            </div>
+            </div>
+            
+            <div class="results_container">
+                <p id="res"></p>
+                <p style="color: #ffffff" id="first_status"></p>
+                <p style="color: #ffffff" id="second_status"></p>
+                <p style="color: #ffffff" id="third_status"></p>
+                <p style="color: #ffffff" id="fourth_status"></p>
+                <p style="color: #ffffff" id="fifth_status"></p>
             </div>
         </div>
-        <div class="confirm-button" onclick="checked_html_tests()" ><p>ПОДТВЕРДИТЬ()</p></div>
-        <p style="color: #ffffff" id="first_status"></p>
-        <p style="color: #ffffff" id="second_status"></p>
-        <p style="color: #ffffff" id="third_status"></p>
-        <p style="color: #ffffff" id="fourth_status"></p>
-        <p style="color: #ffffff" id="fifth_status"></p>
+        
+        
 	<script src="js/script.js"></script>
         
 </body>

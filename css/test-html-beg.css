@@ -9,13 +9,29 @@ p, span, label {
 
 .o-res{
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
     width: 100%;
     align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.tests_content{
+    width: 60%; 
+}
+.relults_content{
+    width: 40%; 
 }
 .confirm-button{
-color: crimson;
+color: white;
 cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:rgb(117, 37, 37);
+height: 60px;
+width: 150px;
+margin: 20px;
+}
+#res{
+color:white;
 }
